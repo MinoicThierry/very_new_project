@@ -4,7 +4,7 @@ pd.options.mode.copy_on_write = True
 pd.options.future.infer_string = False
 pd.options.plotting.backend = "plotly"
 
-from template_project.config import BLD
+from very_new_project.config import BLD
 
 
 products = {

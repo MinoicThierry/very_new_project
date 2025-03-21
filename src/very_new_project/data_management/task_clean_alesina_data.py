@@ -1,10 +1,10 @@
 import pandas as pd
-#import pytask
+import pytask
 
-from template_project.config import BLD, SRC
+from very_new_project.config import BLD, SRC
 
 
-#@pytask.mark.filterwarnings("ignore:.*:UserWarning")
+@pytask.mark.filterwarnings("ignore:.*:UserWarning")
 def task_clean_ales_data(
     data=SRC / "data" / "Alesina.xlsx",
     produces=BLD / "data" / "deficits.pkl",

@@ -7158,12 +7158,6 @@ packages:
   purls: []
   size: 151460
   timestamp: 1732982860332
-- pypi: .
-  name: template-project
-  version: 0.1.dev1+g7c389b8.d20250321
-  sha256: 545896bd12d4288ec06958e722e8b5047b4886c09e8e00235e6db6cffee515f2
-  requires_python: '>=3.11'
-  editable: true
 - conda: https://conda.anaconda.org/conda-forge/noarch/tenacity-9.0.0-pyhd8ed1ab_1.conda
   sha256: dcf2155fb959773fb102066bfab8e7d79aff67054d142716979274a43fc85735
   md5: a09f66fe95a54a92172e56a4a97ba271
@@ -7581,6 +7575,12 @@ packages:
   purls: []
   size: 751362
   timestamp: 1741043402335
+- pypi: .
+  name: very-new-project
+  version: 0.1.dev2+g74a45e6.d20250321
+  sha256: df8457ece3b9f63d8ad53af8ac8870440a2036604f88329508c450ee50c1ed38
+  requires_python: '>=3.11'
+  editable: true
 - conda: https://conda.anaconda.org/conda-forge/noarch/virtualenv-20.29.2-pyhd8ed1ab_0.conda
   sha256: c50a4ab0f5f1164230d42a29f12f61ece9c7b102f57ed1c607d2cd7c77e107b5
   md5: d8a3ee355d5ecc9ee2565cafba1d3573

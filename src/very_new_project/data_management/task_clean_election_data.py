@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-from template_project.config import BLD, SRC
+from very_new_project.config import BLD, SRC
 
 
 def task_clean_elec_data(

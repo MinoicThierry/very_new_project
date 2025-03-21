@@ -7,7 +7,7 @@
 
 import pandas as pd
 
-from template_project.config import BLD
+from very_new_project.config import BLD
 
 def task_merge_data(election_results = BLD / "data" / "election_results.pkl",
                     deficits = BLD / "data" / "deficits.pkl",
